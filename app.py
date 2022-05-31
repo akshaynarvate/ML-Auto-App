@@ -124,7 +124,7 @@ st.write("""
 
 In this implementation, the **lazypredict** library is used for building several machine learning models at once.
 
-Developed by: [Akshay Narvate]()
+Project by: [Akshay Narvate]()
 
 """)
 
