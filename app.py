@@ -1,6 +1,5 @@
-# App created by Data Professor http://youtube.com/dataprofessor
-# GitHub repo of this app https://github.com/dataprofessor/ml-auto-app
-# Demo of this app https://share.streamlit.io/dataprofessor/ml-auto-app/main/app.py
+# GitHub repo of this app https://github.com/akshaynarvate/Ml-Auto-App
+# Demo of this app https://share.streamlit.io/akshaynarvate/ml-auto-app/main/app.py
 
 import streamlit as st
 import pandas as pd
@@ -125,7 +124,7 @@ st.write("""
 
 In this implementation, the **lazypredict** library is used for building several machine learning models at once.
 
-Developed by: [Data Professor](http://youtube.com/dataprofessor)
+Developed by: [Akshay Narvate]()
 
 """)
 
@@ -134,7 +133,7 @@ Developed by: [Data Professor](http://youtube.com/dataprofessor)
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
     st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+[Example CSV input file](https://github.com/akshaynarvate/Future-Sales-Prediction/blob/main/future_sales_predicton.csv)
 """)
 
 # Sidebar - Specify parameter settings
